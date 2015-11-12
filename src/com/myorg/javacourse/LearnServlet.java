@@ -10,8 +10,8 @@ public class LearnServlet extends HttpServlet {
 		
 		int x = 1;
 		int y = 1;
-		String result = x + " +  " + y + " = " + (x+y);
-		
+		String result = x + " + " + y + " = " + MathEx3.sum(x, y);
+	
 		resp.getWriter().println(result);
 	}
 }
