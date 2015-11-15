@@ -1,7 +1,6 @@
 package com.myorg.javacourse;
 import java.io.IOException;
 import javax.servlet.http.*;
-import com.myorg.javacourse.MathEx3;
 
 @SuppressWarnings("serial")
 public class LearnServlet extends HttpServlet {
