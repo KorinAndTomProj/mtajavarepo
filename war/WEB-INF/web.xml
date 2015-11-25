@@ -13,20 +13,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/javakorin01</url-pattern>
 	</servlet-mapping>
 	
-	
-	
 	<servlet>
-		<servlet-name>learn</servlet-name>
-		<servlet-class>com.myorg.javacourse.LearnServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>learn</servlet-name>
-		<url-pattern>/learn</url-pattern>
-	</servlet-mapping>
-	
-	
-	
-		<servlet>
 		<servlet-name>Exercise3</servlet-name>
 		<servlet-class>com.myorg.javacourse.Exercise3Servlet</servlet-class>
 	</servlet>
@@ -36,6 +23,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	
+	
+	
+	<servlet>
+		<servlet-name>StockDetails</servlet-name>
+		<servlet-class>com.myorg.javacourse.StockDetailsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StockDetails</servlet-name>
+		<url-pattern>/StockDetails</url-pattern>
+	</servlet-mapping>
 	
 	
 	
